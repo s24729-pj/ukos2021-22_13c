@@ -20,16 +20,19 @@ mv ../../kot/ma/ale/ ../../i/
 
 4. Program, który nie odpowiada na "Ctrl + C" nalezy zamknąć wysyłając sygnał kill z numerem procesu.
 
+Należy sprawdzić jaki numer ma proces używając polecenia "jobs" 
+następnie wpisać "kill %(numer procesu)"
+
 5. Wypisanie wszystkich plików, które zaczynają się od "al"
 
-ls | grep -e "^al"
+ls -p | grep -e "^al" | grep -v /
 
 6. Uprawienia do katalogu <ala>:
 
 Pierwszy sposób:
-- każdy, mógł wejść - chmod o+x ala; chmod o-rw ala
-- grupa mogła wyświetlić - chmod g+xr ala; chmod g-w ala;
-- właściciel ma pełne prawa - chmod u+rwx ala;
+- każdy, mógł wejść - chmod a+x ala;
+- grupa mogła wyświetlić - chmod g+rx,g-w ala;
+- właściciel ma pełne uprawienia - chmod u+rwx ala;
 
 Drugi sposób:
 - chmod 751 ala
@@ -41,20 +44,21 @@ ls -p | grep -v / > Listaplikow.txt
 
 - mogłam niechcący sama przez przypadek zmienić sobie uprawienia do folderów;
 - administrator mógł zablokować mi daną możliwość;
-- jakiś inny uczeń zmienił mi uprawienia, ponieważ wcześniej przypisałam np. chmod 777;
+- jakiś inny student zmienił mi uprawienia, ponieważ wcześniej przypisałam np. chmod 777;
 
 9. Klawisz TAB, przyśpiesza wpisywanie komend w terminalu.
 
-20. Aby program nie blokował terminala i działałw tle należy wpisać:
+20. Aby program nie blokował terminala i działał w tle należy wpisać:
 
 Pierwszy sposób:
-- polecenie &
-- bg (aby sprawdzić czy działa w tle)
+- użycie "&" po wpisaniu polecenia;
+  przykładowepolecenie &
+- jobs (aby sprawdzić czy działa w tle)
 
 Drugi sposób:
-- polecenie;
+- "przykładowe polecenie";
 - ctrl + Z;
-- bg (aby sprawdzić czy działa w tle) 
+- jobs (aby sprawdzić czy działa w tle) 
 
 
 
