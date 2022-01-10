@@ -25,7 +25,7 @@ następnie wpisać "kill %(numer procesu)"
 
 5. Wypisanie wszystkich plików, które zaczynają się od "al"
 
-ls -p | grep -e "^al"
+ls -p | grep -e "^al" | grep -v /
 
 6. Uprawienia do katalogu <ala>:
 
