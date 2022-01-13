@@ -39,6 +39,7 @@ b) Jakis ransomware ktory obciaza dyski/dysk/procesor(zalezy od skryptu) w 100%/
 3.(Malo prawdopodobne)Padl dysk/ partycja/ kontroler dyskow/macierz raid(Ta opcja zalezy od konstrukcji serwera na ktorym stoi szuflandia, bo mozliwe ze 
 system i pliki sa na jednym dysku/macierzu. Wtedy ta opcja jest nie mozliwe, gdyz zwyczajnie nie bedzie dziala cala szuflania)
 4. Jest jeszcze wiecej opcji ale to juz bedzie ekstremalne gdybanie
+
 9:
 klikajac tab
 
