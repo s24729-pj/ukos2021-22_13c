@@ -1,3 +1,4 @@
 Drogi pamietniku dzisiaj nauczylem sie:
 -podstaw obslugi git'a
 -podstawowych komend w linuxie
+-podstaw obsługi powershella, środowiska ISE, w jaki sposób debugowac skrypt
