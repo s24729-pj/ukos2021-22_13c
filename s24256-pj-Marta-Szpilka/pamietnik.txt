@@ -33,4 +33,7 @@ W dniu 2021.12.18:
 - powtórzylismy materiał z git-a;
 - dowiedziałam się o dodatkowych opcjach poleceń np. git add -i;
 
+W dniu 2022.01.15:
+- nauczyłam się podstaw powershella;
+
 
