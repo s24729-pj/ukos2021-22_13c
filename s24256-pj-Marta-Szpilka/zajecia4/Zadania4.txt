@@ -23,6 +23,11 @@ mv ../../kot/ma/ale/ ../../i/
 Należy sprawdzić jaki numer ma proces używając polecenia "jobs" 
 następnie wpisać "kill %(numer procesu)"
 
+Można sprawdzić numer PID przez wpisanie "ps -aux" 
+Wtedy:
+
+kill PID
+
 5. Wypisanie wszystkich plików, które zaczynają się od "al"
 
 ls -p | grep -e "^al" | grep -v /
@@ -48,7 +53,7 @@ ls -p | grep -v / > Listaplikow.txt
 
 9. Klawisz TAB, przyśpiesza wpisywanie komend w terminalu.
 
-20. Aby program nie blokował terminala i działał w tle należy wpisać:
+10. Aby program nie blokował terminala i działał w tle należy wpisać:
 
 Pierwszy sposób:
 - użycie "&" po wpisaniu polecenia;
@@ -59,6 +64,10 @@ Drugi sposób:
 - "przykładowe polecenie";
 - ctrl + Z;
 - jobs (aby sprawdzić czy działa w tle) 
+
+- czasami trzeba dwa razy kliknąć "ctrl + Z", ale zazwyczaj od razu po tym zaczyna działać w tle
+
+
 
 
 
