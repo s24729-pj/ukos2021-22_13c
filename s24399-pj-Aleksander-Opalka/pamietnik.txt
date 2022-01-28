@@ -30,4 +30,12 @@ Drogi pamietniku dzisiejszego dnia nauczylem sie:
 2021.12.18
 - Omowilismy w jaki sposob pracowac z repozytorium i branchami. 
 Pokazal nam Pan, w jaki sposob mozna wizualnie zobaczyc co dzialo sie w repo, zobaczyc wszystkie merge branche i wiele wiele innych.
-Przydatna opcja zeby sobie zwizualizowac droge rozwoju danego repo/projektu
+Przydatna opcja zeby sobie zwizualizowac droge rozwoju danego repo/projektu. Szczegolnie dla wzrokowzow.
+
+2022.01.15
+- Dowiedzielismy sie ze PowerShell to w sumie potezne narzedzie
+- Metodyka pracy: wsadz kij w szprych -> zobacz co sie stanie -> wyciagnij wnioski -> wroc do pkt 1.
+- Czyli to co najlepsze w informatyce kombinowanie
+- Nie wiedzialem ze da sie podjerzec tak bardzo co sie dzieje w tle w windowsie.
+- Podglady modolow i roznych zasobow windowsa, przedtem tylko umialem odinstallowac przegladarke edge za pomoca powershella :)
+- PowerShell > CMD
