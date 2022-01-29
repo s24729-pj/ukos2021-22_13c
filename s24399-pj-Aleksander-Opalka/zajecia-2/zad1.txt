@@ -1,19 +1,18 @@
-Zadanie1{
-	
-	umask 777
-	touch test1.txt
-	ls -l test1.txt
+# Zadanie
+domyslnie:
+ 
+umask: 0022 
+umask -S: u=rwx,g=rx,o=rx 
 
-daje to uprawnienia rowne:
----------
+plik = -rw-rw-r--
+folder = drwxr-xr-x
 
-	umask 000
-	touch test2.txt
-	ls -l test2.txt
-daje to uprawnienia rowne:
--rw-rw-rw-
+Zmienilem maske na:
 
-ciezko to ujac w slowa
-chmod?
-zmiana uprawnien
-}
+umask: 0027
+umask -S: u=rwx,g=rx,o=
+
+folder = drwxr-x---
+plik = -rw-r-----
+
+Operacja logiczna ktora zostaje dokonywana nazywa sie negacja

@@ -1,3 +1,41 @@
 2021.10.17
 Drogi pamietniku dzisiejszego dnia nauczylem sie:
-- Podstaw obslugi gita i githuba
+- Podstawy obslugi gita i githuba
+- Uruchamiania w virtualboxie, obrazu systemu, ale juz wczesniej spreparowanego i nie wymagajacego instalacji od poczatku.
+- Struktury plikow w systemie linux
+- Generowania tokena na githubie oraz dostalem troche wiedzy o kluczach SSH aby moc pushowac do repo w githubie bez wpisywania raz po razie loginu i hasla
+- Uzywania komendy man, pwd(akurat nie znalem obydwu tych komend)
+
+2021.10.23
+- zarzadzania prawami dostepu do plikow i katalogow w linuxie
+- chmod 777 = nie wolno
+- chmod rwx
+- u = user,g = grupa, o = inni, a=wszyscy 
+- chmod komu_jakie
+
+2021.11.06
+- STDIN, STDERR, STDOUT
+- dowiedzialem sie o roznych rodzajach przekierowan strumieni > >> 2> itd.
+- Dowiedzialem sie o PID
+- polecenie kill
+- o procesach w tle, przenoszeniu procesow do tla oraz o przywrocaniu "na wierzch" procesow
+
+2021.11.20
+- Powtorzylismy sobie elegancko wszystko co bylo, po tych zajeciach sam sobie tez przerobilem te cwiczenia
+- z regexem mialem stycznosc z 2 lata temu w pythonie jak pisalem jakies polecenia szukajace okreslonych fraz w duzych teksach, okazalo sie ze juz prawie nic nie pamietam ups
+
+2021.12.04
+- Kolokwium
+
+2021.12.18
+- Omowilismy w jaki sposob pracowac z repozytorium i branchami. 
+Pokazal nam Pan, w jaki sposob mozna wizualnie zobaczyc co dzialo sie w repo, zobaczyc wszystkie merge branche i wiele wiele innych.
+Przydatna opcja zeby sobie zwizualizowac droge rozwoju danego repo/projektu. Szczegolnie dla wzrokowzow.
+
+2022.01.15
+- Dowiedzielismy sie ze PowerShell to w sumie potezne narzedzie
+- Metodyka pracy: wsadz kij w szprych -> zobacz co sie stanie -> wyciagnij wnioski -> wroc do pkt 1.
+- Czyli to co najlepsze w informatyce kombinowanie
+- Nie wiedzialem ze da sie podjerzec tak bardzo co sie dzieje w tle w windowsie.
+- Podglady modolow i roznych zasobow windowsa, przedtem tylko umialem odinstallowac przegladarke edge za pomoca powershella :)
+- PowerShell > CMD

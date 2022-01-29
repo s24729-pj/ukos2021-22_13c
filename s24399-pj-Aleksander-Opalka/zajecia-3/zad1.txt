@@ -5,7 +5,6 @@ ukazalo to wszystkie pliki majace w nazwie literke "D"
 $ ls -a | grep D > ListaPlikowZLitrekaD.txt
 zapisze to wyniki komendy wczesniejszej w podanym pliku txt
 
-zad1?
 znak ? w kolumnie tty oznacza ze dany proces nie jest przypisany do zadnego wirtualnego terminala
 1.
 $ ps -fC bash
@@ -22,3 +21,35 @@ $ ctrl+c
 Nie zmienimy zawartosci pliku, gdyz nie dalismy mu szansy zapisac sie
 $ ctrl+d
 Zmiany zostana zapisane
+
+------------------------------------------------------------------------------------------------------------
+
+Zad1
+
+ps -> wyswietla aktualnie dzialajace procesy
+ps -a -> wyswietla procesy oprocz sesji "liderow"
+ps x -> Wyswietla procesy bez controli TTYS, czyli procesy ktorych wlascicielem jest aktualny uzytkownik
+ps aux -> Pokazuje procesy wszystkich uzytkownikow, wyswietla uzytkownika / wlasciciela procesu, pokazuje rowniez procesy niepodlaczone do terminala
+
+Zad2
+
+1. Notepad
+2. 2748
+3. kill nie zabil dopiero sigkill zabil
+4. zwrocilo no process found
+5. kill nie zadziala na processach innych uzytkownikow
+
+Zad3
+W obydwu przypadkach przed wywolaniem Ctrl+C / Ctrl+D nie zapisalismy zmian.
+Lecz Ctrl+D zapisuje zamiany przed zakonczeniem procesu.
+Ctrl+C nie pozwala na to konczy proces tu i teraz bez zadnego ale.
+Ctrl+C zakonczy brutalnie proces, i przedtem nie zapisalismy wiec zmiany nie zostana zapisane
+Ctrl+D zakonczy ale wczesniej zapisujac zmiany
+
+Zad4
+fg przenosi "na wierzch" proces
+bg przenosi do tla proces, aby przeniesc wczesniej trzeba zatrzymac go ctrl+z
+ampersand po nazwie procesu sprawie ze program odrazu uruchomi sie w tle
+
+
+
